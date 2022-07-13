@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Personal Doctor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body>
+    <span style="float: left;">
+        <h1 style="margin-left: 600px; font-family: 'Lobster', cursive; font-size: 60px;">Personal Doctor</h1>
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"alt="Sample image" width="700">
+    </span>
+    <span style="float:right ; margin-top:262px; margin-right: 50px;">
+        <h2 style="font-family: 'Josefin Sans', sans-serif; font-family: 'Lato', sans-serif; font-family: 'Lora', serif;font-family: 'Tiro Telugu', serif; color: rgb(99, 0, 99); font-size: 40px; font-weight: bolder;">Log in please</h2>
+
+        <input type="text" id="name" placeholder="Enter a Registered name or a new name" />
+
+
+        <label id="error"></label>
+
+        <button type="button" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;"
+            onclick="regis()">Login</button>
+        <br><br>
+        <p>Remember: If you have login once and<br> want the same chat data again<br> then pls type the exact name u have typed
+            before</p>
+    </span>
+    <script src="main.js"></script>
+</body>
